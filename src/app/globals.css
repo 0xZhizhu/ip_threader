@@ -1,7 +1,4 @@
 /* src/app/globals.css */
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
 
 /* Define CSS Variables for light mode (default) */
 :root {
