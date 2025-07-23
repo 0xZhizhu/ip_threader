@@ -7,7 +7,7 @@ export default [
   pluginJs.configs.recommended,
   ...tseslint.configs.recommended,
   {
-    // Add this section to turn off the rule
+    files: ["**/*.{js,jsx,ts,tsx}"],
     rules: {
       "@typescript-eslint/no-explicit-any": "off",
     },
