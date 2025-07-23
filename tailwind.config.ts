@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+// tailwind.config.ts
 module.exports = {
   content: [
     './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
@@ -8,9 +9,5 @@ module.exports = {
   theme: {
     extend: {},
   },
-  plugins: [
-    // NEW: Explicitly include PostCSS and Tailwind plugins here
-    require('tailwindcss'),
-    require('postcss-preset-env'), // Often needed for Tailwind to correctly process CSS
-  ],
+  plugins: [], 
 };
